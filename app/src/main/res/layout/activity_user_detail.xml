@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/userImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_foreground"/>
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marlise Guerin"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo electrónico: marlise.guerin@example.com"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/userCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="País: Suiza"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/userAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dirección: Rue Abel-Gance 277, Schwendibach, Zug, Switzerland"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/userPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teléfono: 076 204 13 05"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/userNationality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nacionalidad: Suiza (CH)"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/userId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Identificación: 756.0083.1011.26"
+            android:textSize="16sp"/>
+
+        <FrameLayout
+            android:id="@+id/mapContainer"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/userFlag"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_foreground"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
